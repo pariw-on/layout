@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 80px;
+    background-color: #666;
+
+}
+
+header>h1 {
+    text-align: center;
+    color: white;
+}
+
+main>section {
+    float: left;
+}
+
+#leftside {
+    width: 30%;
+    height: 250px;
+    padding: 25px;
+    background-color: #cccccc;
+}
+#rightside>img#cityimage{
+    width: 10%;
+}
+
+section#leftside>a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#rightside {
+    width: 70%;
+    height: 250px;
+    background-color: #e6e6e6;
+    padding: 25px;
+}
+
+footer {
+    color: white;
+    clear: left;
+    background-color: #777777;
+    height: 140px;
+}
+
+footer>h2 {
+    text-align: center;
+}
+
+footer>section {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+}
+
+footer>section>a {
+    display: block;
+    color: white;
+}
+
+div {
+    clear: left;
+    background-color: #e6e6e6;
+    padding: 15px;
+    text-align: center;
+}
